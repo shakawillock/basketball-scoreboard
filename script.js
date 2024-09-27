@@ -5,7 +5,7 @@ let homeScore = 0;
 let guestScore = 0;
 
 homeScoreEl.textContent = homeScore;
-guestScoreEl.textContent = guestScore
+guestScoreEl.textContent = guestScore;
 
 function add1PointToHome() {
   homeScore += 1;
@@ -21,7 +21,6 @@ function add3PointsToHome() {
   homeScore += 3;
   homeScoreEl.textContent = homeScore;
 }
-
 
 function add1PointToGuest() {
   guestScore += 1;
