@@ -1,13 +1,13 @@
-let homeScoreEl = document.getElementById('home-score');
-let guestScoreEl = document.getElementById('guest-score');
+const homeScoreEl = document.getElementById('home-score');
+const guestScoreEl = document.getElementById('guest-score');
 
-let homeButtonOne = document.getElementById('home-button-one')
-let homeButtonTwo = document.getElementById('home-button-two');
-let homeButtonThree = document.getElementById('home-button-three');
+const homeButtonOne = document.getElementById('home-button-one')
+const homeButtonTwo = document.getElementById('home-button-two');
+const homeButtonThree = document.getElementById('home-button-three');
 
-let guestButtonOne = document.getElementById('guest-button-one');
-let guestButtonTwo = document.getElementById('guest-button-two');
-let guestButtonThree = document.getElementById('guest-button-three');
+const guestButtonOne = document.getElementById('guest-button-one');
+const guestButtonTwo = document.getElementById('guest-button-two');
+const guestButtonThree = document.getElementById('guest-button-three');
 
 let homeScore = 0;
 let guestScore = 0;
