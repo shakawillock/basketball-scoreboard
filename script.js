@@ -1,7 +1,7 @@
 const homeScoreEl = document.getElementById('home-score');
 const guestScoreEl = document.getElementById('guest-score');
 
-const homeButtonOne = document.getElementById('home-button-one')
+const homeButtonOne = document.getElementById('home-button-one');
 const homeButtonTwo = document.getElementById('home-button-two');
 const homeButtonThree = document.getElementById('home-button-three');
 
@@ -15,9 +15,9 @@ let guestScore = 0;
 homeScoreEl.textContent = homeScore;
 guestScoreEl.textContent = guestScore;
 
-homeButtonOne.addEventListener('click', add1PointToHome)
-homeButtonTwo.addEventListener('click', add2PointsToHome)
-homeButtonThree.addEventListener('click', add3PointsToHome)
+homeButtonOne.addEventListener('click', add1PointToHome);
+homeButtonTwo.addEventListener('click', add2PointsToHome);
+homeButtonThree.addEventListener('click', add3PointsToHome);
 
 guestButtonOne.addEventListener('click', add1PointToGuest);
 guestButtonTwo.addEventListener('click', add2PointsToGuest);
